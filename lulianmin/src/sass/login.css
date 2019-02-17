@@ -1,0 +1,88 @@
+html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  width: 100%;
+  height: 100%; }
+
+#box {
+  width: 100%;
+  height: 100%; }
+  #box .log {
+    width: 100%;
+    height: 98px;
+    background: #fff; }
+    #box .log .im {
+      width: 50px;
+      float: left;
+      margin-top: 23px; }
+    #box .log .topname {
+      float: left;
+      width: 250px;
+      margin-top: 23px; }
+      #box .log .topname h1 {
+        font-size: 24px; }
+        #box .log .topname h1 a {
+          color: #333; }
+      #box .log .topname p a {
+        color: #333;
+        font-size: 12px; }
+  #box .conten {
+    width: 1130px;
+    margin: auto;
+    background: #fff;
+    height: 100%; }
+  #box .center {
+    height: 588px;
+    width: 100%;
+    position: relative; }
+    #box .center a {
+      position: absolute;
+      width: 100%;
+      height: 588px;
+      background: url(../images/93669e3fa2baa668227d699f69788fd6.jpg) no-repeat center; }
+    #box .center .centcom {
+      width: 410px;
+      height: 524px;
+      background: #fff;
+      position: absolute;
+      right: 190px;
+      top: 30px;
+      text-align: center; }
+      #box .center .centcom h2 {
+        font-size: 24px;
+        text-align: center;
+        color: #EF5B00;
+        padding: 27px 0 24px 0; }
+      #box .center .centcom input {
+        width: 316px;
+        height: 32px;
+        padding: 10px 10px 10px 10px;
+        margin: 20px auto; }
+      #box .center .centcom input:nth-of-type(1), #box .center .centcom input:nth-of-type(2) {
+        border: 1px solid #818181; }
+      #box .center .centcom input:nth-of-type(3) {
+        width: 340px;
+        height: 50px;
+        background: #EF5B00;
+        color: #fff;
+        cursor: pointer; }
+  #box .foo {
+    height: 80px;
+    background: #fff;
+    margin-top: 100px; }
+    #box .foo ul {
+      overflow: hidden;
+      text-align: center;
+      font-size: 14px;
+      margin-bottom: 15px; }
+      #box .foo ul a {
+        padding: 0 10px 0 10px;
+        color: #333; }
+    #box .foo p {
+      text-align: center;
+      color: #333;
+      font-size: 14px; }
+
+/*# sourceMappingURL=login.css.map */
