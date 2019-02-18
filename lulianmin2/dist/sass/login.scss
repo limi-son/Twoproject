@@ -1,0 +1,108 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+#box{
+    width: 100%;
+    height: 100%;
+    .log{
+        width: 100%;
+        height: 98px;
+        background: #fff;
+        .im{
+            width: 50px;
+            float: left;
+            margin-top: 23px;
+        }
+        .topname{
+            float: left;
+            width: 250px;
+            // height: 100%;
+            margin-top: 23px;
+            h1{
+                font-size: 24px;
+                a{
+                    color: #333;
+                }
+            }
+            p{
+                a{
+                    color: #333;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .conten{
+        width: 1130px;
+        margin: auto;
+        background: #fff;
+       height: 100%;
+    }
+    .center{
+        height: 588px;
+        width: 100%;
+        position: relative;
+        a{
+            position: absolute;
+            width: 100%;
+            height: 588px;
+            background: url(../images/93669e3fa2baa668227d699f69788fd6.jpg) no-repeat center;
+        }
+        .centcom{
+            width: 410px;
+            height: 524px;
+            background: #fff;
+            position: absolute;
+            right: 190px;
+            top: 30px;
+            text-align: center;
+            h2{
+                font-size: 24px;
+                text-align: center;
+                color: #EF5B00;
+                padding: 27px 0 24px 0;
+            }
+            input{
+                width: 316px;
+                height: 32px;
+                padding: 10px 10px 10px 10px;
+                margin: 20px auto;
+            }
+            input:nth-of-type(1),input:nth-of-type(2){
+                border: 1px solid rgb(129, 129, 129);
+            }
+            input:nth-of-type(3){
+                width: 340px;
+                height: 50px;
+                background: #EF5B00;
+                color: #fff;
+                cursor:pointer;
+            }
+        }
+    }
+    .foo{
+        height: 80px;
+        background: #fff;
+        margin-top: 100px;
+        ul{
+            overflow: hidden;
+            text-align: center;
+            font-size:14px;
+            margin-bottom: 15px;
+            a{
+                padding:  0 10px 0 10px;
+                color: #333; 
+            }
+        } 
+        p{
+            text-align: center;
+            color: #333; 
+            font-size: 14px;
+        }
+    }
+}
